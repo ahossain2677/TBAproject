@@ -5,7 +5,13 @@ public abstract class BareBones {
         private int intelligence;
         private int speed;
 
-
+public BarBones (){
+        this.health = 0;
+        this.strength = 0;
+        this.intelligence = 0 ;
+        this.speed = 0;
+        
+        
         public int getHealth() {
             return health;
         }
