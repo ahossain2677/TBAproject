@@ -6,10 +6,10 @@ public abstract class BareBones {
         private int speed;
 
 public BarBones (){
-        this.health = 0;
-        this.strength = 0;
-        this.intelligence = 0 ;
-        this.speed = 0;
+        this.health = 5;
+        this.strength = 3;
+        this.intelligence = 3 ;
+        this.speed = 3;}
         
         
         public int getHealth() {
