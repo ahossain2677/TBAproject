@@ -23,7 +23,7 @@ public class Runner {
 		}
 
 		
-		building[0][0].enterRoom(player1);
+		building[0][0].enterRoom(BareBones);
 		Scanner in = new Scanner(System.in);
 		while(gameOn)
 		{
